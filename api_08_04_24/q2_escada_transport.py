@@ -65,8 +65,8 @@ Sexo                            : {sexo}
 Quantidade de kilos             : {peso} kgs
 Qtd. de kilos que quer perder   : {metakilos} kgs
 Semanas necessárias de treino   : {semanas} semanas
-Minutos diários de ESCADA       : {mins_escada_dia}mins necessarios
-Minutos diários de TRANSPORT    : {mins_transport_dia}mins necessarios
+Minutos diários de ESCADA       : {mins_escada_dia} mins necessarios
+Minutos diários de TRANSPORT    : {mins_transport_dia} mins necessarios
 ''')
 
     

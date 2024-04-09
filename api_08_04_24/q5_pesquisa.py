@@ -28,14 +28,14 @@ Total a Pagar:\t\t R${total:.2f}''')
                 parcelas_juros = 6
                 montante = total * (1+0.05)**parcelas_juros              
                 print(f'À vista ou Pix:\t\t R${total:.2f}')
-                print(f'Em 3x no cartão:\t R${(total/3):.2f} (SEM JUROS)')
-                print(f'Em 6x no cartão:\t R${montante:.2f} (COM JUROS)')
+                print(f'Em 3x no cartão:\t R${(total/3):.2f} cada parcela (SEM JUROS)')
+                print(f'Em 6x no cartão:\t R${montante/6:.2f} cada parcela (COM JUROS)')
             else:
                 parcelas_juros = 6
                 montante = total * (1+0.05)**parcelas_juros              
                 print(f'À vista ou Pix:\t\t R${total:.2f}')
-                print(f'Em 5x no cartão:\t R${(total/5):.2f} (SEM JUROS)')
-                print(f'Em 6x no cartão:\t R${montante:.2f} (COM JUROS)')
+                print(f'Em 5x no cartão:\t R${(total/5):.2f} cada parcela (SEM JUROS)')
+                print(f'Em 6x no cartão:\t R${montante/6:.2f} cada parcela (COM JUROS)')
             input('\nAperte ENTER para voltar...')
 
         elif opcao == 0:

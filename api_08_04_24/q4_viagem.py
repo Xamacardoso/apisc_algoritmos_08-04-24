@@ -33,8 +33,8 @@ Origem                  : {origem}
 Destino                 : {destino}
 Milhas necessárias      : {milhas}
 Valor do Site           : {valorRS:.2f} (100%)
-Valor em milhas comuns  : {valorMilhasComuns:.2f} ({(pct_mc*100):.2f})%
-Valor em milhas baratas : {valorMilhasBaratas:.2f} ({(pct_mb*100):.2f})%
+Valor em milhas comuns  : {valorMilhasComuns:.2f} ({(pct_mc*100):.2f}%)
+Valor em milhas baratas : {valorMilhasBaratas:.2f} ({(pct_mb*100):.2f}%)
 
 A opção mais econômica é: {opcao}
 ''')
